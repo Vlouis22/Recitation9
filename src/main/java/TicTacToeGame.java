@@ -15,7 +15,7 @@ public class TicTacToeGame {
         Scanner input = new Scanner(System.in);
         TicTacToe ttt = new TicTacToe(new GamePiece('X'),new GamePiece('O'));
         int location;
-
+        System.out.println(ttt);
         while(ttt.movesRemaining() > 0 && ttt.getWinner() == null){
             System.out.println(ttt);
             System.out.println("Player "+ttt.getCurrentPlayer()+", choose a square:");

@@ -40,6 +40,7 @@ public class GamePiece
     public GamePiece(GamePiece gamePiece)
     {
         this.piece = gamePiece.piece;
+        //this.piece = gamePiece.getPiece();
     }
 
     /**
